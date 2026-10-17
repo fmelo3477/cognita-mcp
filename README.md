@@ -98,9 +98,10 @@ Most tools query public data sources (DNS, certificate logs, public blocklists, 
 
 Cognita queries public data sources and services, including:
 
-- DNS and RDAP registries, and public Certificate Transparency logs
+- DNS and RDAP registries, and public Certificate Transparency logs (including [crt.sh](https://crt.sh))
+- [RIPEstat](https://stat.ripe.net) (network and routing data)
 - [NVD](https://nvd.nist.gov) (CVE data), [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) and [FIRST EPSS](https://www.first.org/epss/)
-- [abuse.ch Feodo Tracker](https://feodotracker.abuse.ch), [SANS ISC DShield](https://isc.sans.edu), [GreyNoise](https://www.greynoise.io), the [Tor Project](https://www.torproject.org) exit list and public blocklists
+- [abuse.ch Feodo Tracker](https://feodotracker.abuse.ch), [SANS ISC DShield](https://isc.sans.edu), [GreyNoise](https://www.greynoise.io), [Shodan](https://www.shodan.io), the [Tor Project](https://www.torproject.org) exit list, [Spamhaus](https://www.spamhaus.org) and [FireHOL](https://iplists.firehol.org) blocklists
 - [urlscan.io](https://urlscan.io), the [Internet Archive Wayback Machine](https://archive.org/web/) and the [Tranco](https://tranco-list.eu) ranking
 - Map tiles and data from OpenStreetMap
 
@@ -126,6 +127,6 @@ Security contact: see [`security.txt`](https://cognita.fmelo.net/.well-known/sec
 
 ## Credits
 
-The brain symbol in the Cognita logo is the [Lucide](https://lucide.dev) "brain" icon, used under the ISC licence. Copyright (c) Lucide Icons and Contributors.
+The brain symbol in the Cognita logo is the [Lucide](https://lucide.dev) "brain" icon, used under the ISC licence. Copyright (c) Lucide Contributors.
 
 Cognita is a project by Fernando Melo.
