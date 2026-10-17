@@ -106,7 +106,7 @@ Cognita is a hosted service; its source code is not published. This repository c
 
 Built by [Fernando Melo](https://fmelo.net) · [fmelo.net](https://fmelo.net)
 
-Security contact: see [`security.txt`](https://fmelo.net/.well-known/security.txt).
+Security contact: see [`security.txt`](https://cognita.fmelo.net/.well-known/security.txt).
 
 ## Credits
 
