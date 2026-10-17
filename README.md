@@ -98,16 +98,22 @@ Most tools query public data sources (DNS, certificate logs, public blocklists, 
 
 Cognita queries public data sources and services, including:
 
-- DNS and RDAP registries, and public Certificate Transparency logs (including [crt.sh](https://crt.sh))
-- [RIPEstat](https://stat.ripe.net) (network and routing data)
-- [NVD](https://nvd.nist.gov) (CVE data), [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) and [FIRST EPSS](https://www.first.org/epss/)
-- [abuse.ch Feodo Tracker](https://feodotracker.abuse.ch), [SANS ISC DShield](https://isc.sans.edu), [GreyNoise](https://www.greynoise.io), [Shodan](https://www.shodan.io), the [Tor Project](https://www.torproject.org) exit list, [Spamhaus](https://www.spamhaus.org) and [FireHOL](https://iplists.firehol.org) blocklists
-- [urlscan.io](https://urlscan.io), the [Internet Archive Wayback Machine](https://archive.org/web/) and the [Tranco](https://tranco-list.eu) ranking
-- Map tiles and data from OpenStreetMap
-
-This product uses data from the NVD API but is not endorsed or certified by the NVD.
+- **DNS resolvers and RDAP:** DNS-over-HTTPS services from [Google](https://developers.google.com/speed/public-dns), [Cloudflare](https://www.cloudflare.com/application-services/products/dns/), [DNS.SB](https://dns.sb) and [NextDNS](https://nextdns.io); RDAP registries via [rdap.org](https://rdap.org)
+- **Certificate Transparency logs:** [crt.sh](https://crt.sh) and [Cert Spotter](https://sslmate.com/certspotter/)
+- **Network, geolocation and passive DNS:** [RIPEstat](https://stat.ripe.net), [MaxMind GeoLite2](https://www.maxmind.com) with [KeyCDN](https://tools.keycdn.com/geo) as fallback, and [mnemonic](https://www.mnemonic.io)
+- **Vulnerability data:** [NVD](https://nvd.nist.gov), [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) and [FIRST EPSS](https://www.first.org/epss/)
+- **Threat intelligence:** [abuse.ch Feodo Tracker](https://feodotracker.abuse.ch), [SANS ISC DShield](https://isc.sans.edu), [GreyNoise](https://www.greynoise.io), [Shodan](https://www.shodan.io) and the [Tor Project](https://www.torproject.org) exit list
+- **Blocklists:** [Spamhaus](https://www.spamhaus.org) (DROP and ZEN), [FireHOL](https://iplists.firehol.org), [SpamCop](https://www.spamcop.net) and [Barracuda](https://www.barracudacentral.org)
+- **Web and URL data:** [urlscan.io](https://urlscan.io), the [Wayback Machine](https://archive.org/web/), the [Tranco](https://tranco-list.eu) ranking and the [HSTS preload list](https://hstspreload.org)
+- **Web security scans:** [Astur](https://astur.fmelo.net)
+- **Maps and routing:** [OpenStreetMap](https://www.openstreetmap.org) tiles and route data, drawn with [Leaflet](https://leafletjs.com)
+- **Language model:** the chat agent runs on a model served through [Ollama](https://ollama.com)
 
 Maps © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors.
+
+This product includes GeoLite2 data created by MaxMind, available from https://www.maxmind.com.
+
+This product uses data from the NVD API but is not endorsed or certified by the NVD.
 
 All trademarks and data belong to their respective owners. Cognita is not affiliated with or endorsed by any of the services listed.
 
@@ -127,6 +133,8 @@ Security contact: see [`security.txt`](https://cognita.fmelo.net/.well-known/sec
 
 ## Credits
 
-The brain symbol in the Cognita logo is the [Lucide](https://lucide.dev) "brain" icon, used under the ISC licence. Copyright (c) Lucide Contributors.
+The brain symbol in the Cognita logo is the [Lucide](https://lucide.dev) "brain" icon, used under the ISC licence. Copyright (c) Lucide Contributors. The full notice is on the [credits page](https://cognita.fmelo.net/credits).
+
+Map labels use the DejaVu Sans font under the Bitstream Vera and Arev font licences.
 
 Cognita is a project by Fernando Melo.
