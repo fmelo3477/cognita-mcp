@@ -112,4 +112,4 @@ Security contact: see [`security.txt`](https://fmelo.net/.well-known/security.tx
 
 The brain symbol in the Cognita logo is the [Lucide](https://lucide.dev) "brain" icon, used under the ISC licence. Copyright (c) Lucide Icons and Contributors.
 
-The Cognita name is © 2026 Fernando Melo. All rights reserved.
+Cognita is a project by Fernando Melo.
