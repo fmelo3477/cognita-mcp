@@ -94,6 +94,22 @@ Your client lists each tool with its description and parameters when it connects
 
 Most tools query public data sources (DNS, certificate logs, public blocklists, vulnerability feeds). A few, such as `scan_site`, `zone_transfer_check` and `typosquat_scan`, make requests towards the target you name. Use Cognita only on domains, hosts and networks you own or are authorised to assess.
 
+## Data sources
+
+Cognita queries public data sources and services, including:
+
+- DNS and RDAP registries, and public Certificate Transparency logs
+- [NVD](https://nvd.nist.gov) (CVE data), [CISA KEV](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) and [FIRST EPSS](https://www.first.org/epss/)
+- [abuse.ch Feodo Tracker](https://feodotracker.abuse.ch), [SANS ISC DShield](https://isc.sans.edu), [GreyNoise](https://www.greynoise.io), the [Tor Project](https://www.torproject.org) exit list and public blocklists
+- [urlscan.io](https://urlscan.io), the [Internet Archive Wayback Machine](https://archive.org/web/) and the [Tranco](https://tranco-list.eu) ranking
+- Map tiles and data from OpenStreetMap
+
+This product uses data from the NVD API but is not endorsed or certified by the NVD.
+
+Maps © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors.
+
+All trademarks and data belong to their respective owners. Cognita is not affiliated with or endorsed by any of the services listed.
+
 ## Listing
 
 Published in the official MCP Registry as `net.fmelo/cognita`.
