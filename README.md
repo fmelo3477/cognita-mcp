@@ -98,8 +98,18 @@ Most tools query public data sources (DNS, certificate logs, public blocklists, 
 
 Published in the official MCP Registry as `net.fmelo/cognita`.
 
+## About this repository
+
+Cognita is a hosted service; its source code is not published. This repository contains documentation only.
+
 ## Contact
 
 Built by [Fernando Melo](https://fmelo.net) · [fmelo.net](https://fmelo.net)
 
 Security contact: see [`security.txt`](https://fmelo.net/.well-known/security.txt).
+
+## Credits
+
+The brain symbol in the Cognita logo is the [Lucide](https://lucide.dev) "brain" icon, used under the ISC licence. Copyright (c) Lucide Icons and Contributors.
+
+The Cognita name is © 2026 Fernando Melo. All rights reserved.
